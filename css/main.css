@@ -88,10 +88,12 @@ footer {
 
 /* Write your CSS here */
 blockquote {
+  color: #666;
+  text-align: right;
   float: left;
   width: 15em;
-  margin: 0;
   margin-right: 1em;
+  margin-left: -7em;
   border-top: 2px solid #333;
   border-bottom: 2px solid #333;
 }
