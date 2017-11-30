@@ -115,7 +115,7 @@ figcaption {
   font-style: italic;
 }
 
-p:nth-child(1)::first-letter:not(blockquote) {
+.wrapper > p:nth-child(1)::first-letter {
   display: inline-block;
   float: left;
   padding: .2em;
