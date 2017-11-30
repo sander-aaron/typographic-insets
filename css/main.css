@@ -103,7 +103,19 @@ figure {
   width: 300px;
   float: right;
   padding-top: .2em;
+  padding-left: .4em;
+  margin: 0;
   margin-right: -7em;
   border-top: 2px solid #333;
   border-bottom: 2px solid #333;
+}
+
+figcaption {
+  font-size: .875rem;
+  font-style: italic;
+}
+
+p:nth-child(1)::first-letter {
+  font-size: 5rem;
+
 }
